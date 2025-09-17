@@ -3,17 +3,29 @@
   line-height: 1.5;
   font-weight: 400;
   background-color: #242424;
+  color: #fafafa;
 }
 
 body {
   margin: 0;
   display: flex;
-  place-items: center;
-  min-width: 320px;
+  justify-content: center;
+  align-items: center;
   min-height: 100vh;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+main {
+  background-color: #1d1d1d;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+main > div {
+  display: flex;
 }
