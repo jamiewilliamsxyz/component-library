@@ -1,3 +1,3 @@
 export const Badge = () => {
-  return <div></div>;
+  return <div className="badge">Text</div>;
 };

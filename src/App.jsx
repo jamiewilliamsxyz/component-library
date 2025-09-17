@@ -6,11 +6,13 @@ export const App = () => {
     <>
       <h1>Component Library</h1>
       <main>
-        <div>
-          <Button />
-        </div>
-        <div>
-          <Badge />
+        <div className="wrapper">
+          <div className="components-container">
+            <Button />
+          </div>
+          <div className="components-container">
+            <Badge />
+          </div>
         </div>
       </main>
     </>
