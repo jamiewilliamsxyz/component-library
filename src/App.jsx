@@ -5,7 +5,7 @@ import { ComponentSection } from "./components/ComponentSection";
 export const App = () => {
   return (
     <>
-      <h1>Component Library</h1>
+      <h1>component-library</h1>
       <main>
         <ComponentSection
           title="Buttons"
