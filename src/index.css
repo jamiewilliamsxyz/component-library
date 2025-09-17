@@ -20,19 +20,41 @@ h1 {
 }
 
 main {
+  text-align: center;
   margin: auto;
+  width: fit-content;
+  background-color: #1c1c1c;
+  border-radius: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1.5em;
   width: fit-content;
 }
 
-.wrapper {
-  background-color: #1c1c1c;
-  border-radius: 10px;
+.component-section {
+  margin-bottom: 1em;
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  gap: 1.5em;
-  padding: 1.5em;
-  width: fit-content;
+  gap: 0.5em;
+}
+
+hr {
+  width: 100%;
+  border: solid 1px #292929;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 600;
+  line-height: 0;
+  margin-bottom: 1em;
+}
+
+.subtext {
+  opacity: 0.7;
+  font-size: 0.82rem;
+  font-weight: 300;
 }
 
 .components-container {
