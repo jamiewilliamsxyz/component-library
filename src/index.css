@@ -37,7 +37,8 @@ main {
 
 .components-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 1em;
 }
 
 .button {
@@ -71,4 +72,46 @@ main {
   font-family: inherit;
   background-color: #b6b6b6;
   color: #1c1c1c;
+}
+
+.button-square,
+.badge-square {
+  border-radius: 0.25em;
+}
+
+.button-pill,
+.badge-pill {
+  border-radius: 1em;
+}
+
+.button-grey,
+.badge-neutral {
+  background-color: #b6b6b6;
+}
+
+.button-red {
+  background-color: #f87171;
+}
+
+.button-green {
+  background-color: #4ade80;
+}
+
+.button-blue {
+  background-color: #3b82f6;
+}
+
+.badge-success {
+  background-color: #bbf7d0;
+  color: #052e16;
+}
+
+.badge-warning {
+  background-color: #fde68a;
+  color: #451a03;
+}
+
+.badge-error {
+  background-color: #fecaca;
+  color: #450a0a;
 }

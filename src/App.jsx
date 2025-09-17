@@ -8,10 +8,36 @@ export const App = () => {
       <main>
         <div className="wrapper">
           <div className="components-container">
-            <Button />
+            <Button
+              shape="square"
+              color="grey"
+              onClick={() => console.log("Button Clicked!")}
+            >
+              Button
+            </Button>
+            <Button shape="square" color="red">
+              Button
+            </Button>
+            <Button shape="pill" color="green">
+              Button
+            </Button>
+            <Button shape="pill" color="blue">
+              Button
+            </Button>
           </div>
           <div className="components-container">
-            <Badge />
+            <Badge shape="square" status="neutral">
+              Badge
+            </Badge>
+            <Badge shape="square" status="success">
+              Badge
+            </Badge>
+            <Badge shape="pill" status="warning">
+              Badge
+            </Badge>
+            <Badge shape="pill" status="error">
+              Badge
+            </Badge>
           </div>
         </div>
       </main>

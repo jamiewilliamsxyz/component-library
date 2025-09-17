@@ -1,3 +1,7 @@
-export const Button = () => {
-  return <button className="button">Text</button>;
+export const Button = ({ children, shape, color, ...rest }) => {
+  return (
+    <button {...rest} className={`button button-${shape} button-${color}`}>
+      {children}
+    </button>
+  );
 };
